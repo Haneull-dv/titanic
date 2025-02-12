@@ -19,32 +19,32 @@ class Dataset:
 
     @property
     def context(self) -> str:
-        return self.context
+        return self._context
     
     @context.setter
     def context(self,context):
-        self.context = context
+        self._context = context
 
     @property
     def fname(self) -> str:
-        return self.fname
+        return self._fname
     
     @fname.setter
     def fname(self,fname):
-        self.fname = fname
+        self._fname = fname
 
     @property
     def id(self) -> str:
-        return self.id
+        return self._id
     
     @id.setter
     def id(self,id):
-        self.id = id
+        self._id = id
 
     @property
     def label(self) -> str:
-        return self.label
+        return self._label
     
     @label.setter
     def label(self,label):
-        self.label = label
+        self._label = label

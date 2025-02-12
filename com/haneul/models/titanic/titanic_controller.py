@@ -1,10 +1,10 @@
 from com.haneul.models.titanic.dataset import Dataset
-from com.haneul.models.titanic.service import Service
+from com.haneul.models.titanic.titanic_service import TitanicService
 
 
-class Controller:
+class TitanicController:
     dataset = Dataset()
-    service = Service()
+    service = TitanicService()
 
     def modeling(self, train, test):
         this = self.dataset
